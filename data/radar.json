@@ -1,0 +1,759 @@
+{
+  "meta": {
+    "source_url": "https://datos.madrid.es/dataset/209548-0-censo-locales-historico",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Ayuntamiento de Madrid, Censo de locales y actividades, histórico de terrazas. Transformado por Web Factory IA.",
+    "from_date": "2026-09-30",
+    "to_date": "2026-10-31",
+    "date_note": "Fechas verificadas en fx_carga de los CSV (30/09/2026 y 31/10/2026); no son fechas de cambios individuales.",
+    "generated_at": "2026-11-08T00:31:13.933966+00:00",
+    "mode": "real",
+    "total_changes": 60,
+    "displayed_changes": 60,
+    "counts": {
+      "entrada": 29,
+      "salida": 11,
+      "cambio_estado": 20
+    },
+    "sources": [
+      {
+        "url": "https://datos.madrid.es/dataset/209548-0-censo-locales-historico/resource/209548-860-censo-locales-historico/download/209548_20261001_044627.csv",
+        "resource_id": "209548-860-censo-locales-historico",
+        "period": "2026-09",
+        "description": "Terrazas. Septiembre 2026",
+        "sha256": "a46b1017e7bd3af30f785283e51ce267c4ed55f8b83124e7e5b9656e8b35066c",
+        "bytes": 5193282,
+        "quality": {
+          "rows": 6594,
+          "unique_ids": 6594,
+          "identical_duplicates": 0,
+          "source_load_dates": [
+            "30/09/2026"
+          ]
+        }
+      },
+      {
+        "url": "https://datos.madrid.es/dataset/209548-0-censo-locales-historico/resource/209548-872-censo-locales-historico/download/209548-0-censo-locales-historico_19_20261101_061610.csv",
+        "resource_id": "209548-872-censo-locales-historico",
+        "period": "2026-10",
+        "description": "Terrazas. Octubre 2026",
+        "sha256": "739da3d27886af0c91e064741ca6bb63628aa2a51631b01357705a33bcd26409",
+        "bytes": 5207449,
+        "quality": {
+          "rows": 6612,
+          "unique_ids": 6612,
+          "identical_duplicates": 0,
+          "source_load_dates": [
+            "31/10/2026"
+          ]
+        }
+      }
+    ],
+    "coverage_note": "Solo registros de terrazas de hostelería de Madrid. No cubre todos los locales. Entradas y salidas del registro no prueban aperturas o cierres reales. Cambios de estado incluyen periodo, local vinculado y barrio. No se comparan mesas, superficies ni permisos.",
+    "selection_note": "Primeros identificadores numéricos de terraza; sin priorización comercial ni muestreo estadístico.",
+    "privacy_note": "Sin rótulos, nombres, contactos, direcciones exactas ni coordenadas. Solo identificadores administrativos y zonas."
+  },
+  "changes": [
+    {
+      "id": "311",
+      "local_id": "270531125",
+      "district": "LATINA",
+      "neighborhood": "LAS AGUILAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; LATINA / LAS AGUILAS; local municipal 270531125",
+      "changed_fields": []
+    },
+    {
+      "id": "596",
+      "local_id": "20001084",
+      "district": "ARGANZUELA",
+      "neighborhood": "ACACIAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / ACACIAS; local municipal 20001084",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "672",
+      "local_id": "270379122",
+      "district": "RETIRO",
+      "neighborhood": "LOS JERONIMOS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; RETIRO / LOS JERONIMOS; local municipal 270379122",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / LOS JERONIMOS; local municipal 270379122",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "1085",
+      "local_id": "40001884",
+      "district": "SALAMANCA",
+      "neighborhood": "GOYA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; SALAMANCA / GOYA; local municipal 40001884",
+      "changed_fields": []
+    },
+    {
+      "id": "1139",
+      "local_id": "20000987",
+      "district": "ARGANZUELA",
+      "neighborhood": "ACACIAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / ACACIAS; local municipal 20000987",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Estacional; ARGANZUELA / ACACIAS; local municipal 20000987",
+      "changed_fields": [
+        "period"
+      ]
+    },
+    {
+      "id": "1973",
+      "local_id": "270130046",
+      "district": "FUENCARRAL-EL PARDO",
+      "neighborhood": "EL PILAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; FUENCARRAL-EL PARDO / EL PILAR; local municipal 270130046",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "1999",
+      "local_id": "80001030",
+      "district": "FUENCARRAL-EL PARDO",
+      "neighborhood": "EL PILAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; FUENCARRAL-EL PARDO / EL PILAR; local municipal 80001030",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "2652",
+      "local_id": "280047229",
+      "district": "FUENCARRAL-EL PARDO",
+      "neighborhood": "EL PILAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Anual; FUENCARRAL-EL PARDO / EL PILAR; local municipal 280047229",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "3517",
+      "local_id": "270059147",
+      "district": "RETIRO",
+      "neighborhood": "PACIFICO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 270059147",
+      "after": "Local: Cerrado; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 270059147",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "3551",
+      "local_id": "270407781",
+      "district": "RETIRO",
+      "neighborhood": "PACIFICO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 270407781",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; RETIRO / PACIFICO; local municipal 270407781",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "4162",
+      "local_id": "270413150",
+      "district": "CHAMBERI",
+      "neighborhood": "RIOS ROSAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 270413150",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 270413150",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "4164",
+      "local_id": "270416130",
+      "district": "CHAMBERI",
+      "neighborhood": "VALLEHERMOSO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / VALLEHERMOSO; local municipal 270416130",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "4270",
+      "local_id": "270552623",
+      "district": "CHAMBERI",
+      "neighborhood": "TRAFALGAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Baja; terraza: Abierta; periodo: Anual; CHAMBERI / TRAFALGAR; local municipal 270552623",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / TRAFALGAR; local municipal 270552623",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "4280",
+      "local_id": "280038232",
+      "district": "CHAMBERI",
+      "neighborhood": "RIOS ROSAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 280038232",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 280038232",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "4718",
+      "local_id": "270379088",
+      "district": "LATINA",
+      "neighborhood": "CAMPAMENTO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Estacional; LATINA / CAMPAMENTO; local municipal 270379088",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; LATINA / CAMPAMENTO; local municipal 270379088",
+      "changed_fields": [
+        "period"
+      ]
+    },
+    {
+      "id": "4944",
+      "local_id": "280031279",
+      "district": "TETUAN",
+      "neighborhood": "ALMENARA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Suspension temporal; periodo: Estacional; TETUAN / ALMENARA; local municipal 280031279",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "5104",
+      "local_id": "270135331",
+      "district": "MONCLOA-ARAVACA",
+      "neighborhood": "ARGUELLES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; MONCLOA-ARAVACA / ARGUELLES; local municipal 270135331",
+      "changed_fields": []
+    },
+    {
+      "id": "5940",
+      "local_id": "210000578",
+      "district": "BARAJAS",
+      "neighborhood": "TIMON",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; BARAJAS / TIMON; local municipal 210000578",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "17668",
+      "local_id": "270539255",
+      "district": "CHAMBERI",
+      "neighborhood": "ARAPILES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / ARAPILES; local municipal 270539255",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "18276",
+      "local_id": "280019753",
+      "district": "RETIRO",
+      "neighborhood": "PACIFICO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 280019753",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 280019753",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "18388",
+      "local_id": "270071241",
+      "district": "SALAMANCA",
+      "neighborhood": "GOYA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; SALAMANCA / GOYA; local municipal 270071241",
+      "changed_fields": []
+    },
+    {
+      "id": "18455",
+      "local_id": "270348350",
+      "district": "VILLA DE VALLECAS",
+      "neighborhood": "SANTA EUGENIA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; VILLA DE VALLECAS / SANTA EUGENIA; local municipal 270348350",
+      "after": "Local: Cerrado; terraza: Abierta; periodo: Anual; VILLA DE VALLECAS / SANTA EUGENIA; local municipal 270348350",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "18672",
+      "local_id": "270243087",
+      "district": "RETIRO",
+      "neighborhood": "PACIFICO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 270243087",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; RETIRO / PACIFICO; local municipal 270243087",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "18946",
+      "local_id": "280047223",
+      "district": "FUENCARRAL-EL PARDO",
+      "neighborhood": "PEÑA GRANDE",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; FUENCARRAL-EL PARDO / PEÑA GRANDE; local municipal 280047223",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "19598",
+      "local_id": "270059617",
+      "district": "RETIRO",
+      "neighborhood": "PACIFICO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / PACIFICO; local municipal 270059617",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; RETIRO / PACIFICO; local municipal 270059617",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "19620",
+      "local_id": "270304299",
+      "district": "ARGANZUELA",
+      "neighborhood": "ATOCHA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Anual; ARGANZUELA / ATOCHA; local municipal 270304299",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / ATOCHA; local municipal 270304299",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "19862",
+      "local_id": "70001184",
+      "district": "CHAMBERI",
+      "neighborhood": "RIOS ROSAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 70001184",
+      "after": "Local: Abierto; terraza: Suspension temporal; periodo: Anual; CHAMBERI / RIOS ROSAS; local municipal 70001184",
+      "changed_fields": [
+        "terrace_status"
+      ]
+    },
+    {
+      "id": "19920",
+      "local_id": "270304299",
+      "district": "ARGANZUELA",
+      "neighborhood": "ATOCHA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Anual; ARGANZUELA / ATOCHA; local municipal 270304299",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / ATOCHA; local municipal 270304299",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "19986",
+      "local_id": "270348350",
+      "district": "VILLA DE VALLECAS",
+      "neighborhood": "SANTA EUGENIA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; VILLA DE VALLECAS / SANTA EUGENIA; local municipal 270348350",
+      "after": "Local: Cerrado; terraza: Abierta; periodo: Anual; VILLA DE VALLECAS / SANTA EUGENIA; local municipal 270348350",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "20160",
+      "local_id": "270570451",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270570451",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Estacional; HORTALEZA / VALDEFUENTES; local municipal 270570451",
+      "changed_fields": [
+        "period"
+      ]
+    },
+    {
+      "id": "20471",
+      "local_id": "280021092",
+      "district": "CHAMARTIN",
+      "neighborhood": "EL VISO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMARTIN / EL VISO; local municipal 280021092",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "20492",
+      "local_id": "270480052",
+      "district": "FUENCARRAL-EL PARDO",
+      "neighborhood": "EL PILAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "salida",
+      "before": "Local: Abierto; terraza: Abierta; periodo: Anual; FUENCARRAL-EL PARDO / EL PILAR; local municipal 270480052",
+      "after": null,
+      "changed_fields": []
+    },
+    {
+      "id": "20710",
+      "local_id": "270573910",
+      "district": "VICALVARO",
+      "neighborhood": "EL CAÑAVERAL",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Estacional; VICALVARO / EL CAÑAVERAL; local municipal 270573910",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Estacional; VICALVARO / EL CAÑAVERAL; local municipal 270573910",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "20795",
+      "local_id": "270200618",
+      "district": "PUENTE DE VALLECAS",
+      "neighborhood": "PALOMERAS BAJAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Uso vivienda; terraza: Abierta; periodo: Anual; PUENTE DE VALLECAS / PALOMERAS BAJAS; local municipal 270200618",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; PUENTE DE VALLECAS / PALOMERAS BAJAS; local municipal 270200618",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "20848",
+      "local_id": "30000702",
+      "district": "RETIRO",
+      "neighborhood": "IBIZA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "cambio_estado",
+      "before": "Local: Cerrado; terraza: Abierta; periodo: Anual; RETIRO / IBIZA; local municipal 30000702",
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / IBIZA; local municipal 30000702",
+      "changed_fields": [
+        "local_status"
+      ]
+    },
+    {
+      "id": "20881",
+      "local_id": "270576084",
+      "district": "VICALVARO",
+      "neighborhood": "EL CAÑAVERAL",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; VICALVARO / EL CAÑAVERAL; local municipal 270576084",
+      "changed_fields": []
+    },
+    {
+      "id": "20882",
+      "local_id": "160002215",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 160002215",
+      "changed_fields": []
+    },
+    {
+      "id": "20883",
+      "local_id": "270165121",
+      "district": "MORATALAZ",
+      "neighborhood": "MARROQUINA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; MORATALAZ / MARROQUINA; local municipal 270165121",
+      "changed_fields": []
+    },
+    {
+      "id": "20884",
+      "local_id": "270219443",
+      "district": "VICALVARO",
+      "neighborhood": "CASCO H.VICALVARO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; VICALVARO / CASCO H.VICALVARO; local municipal 270219443",
+      "changed_fields": []
+    },
+    {
+      "id": "20885",
+      "local_id": "280055821",
+      "district": "CARABANCHEL",
+      "neighborhood": "ABRANTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CARABANCHEL / ABRANTES; local municipal 280055821",
+      "changed_fields": []
+    },
+    {
+      "id": "20886",
+      "local_id": "270406213",
+      "district": "HORTALEZA",
+      "neighborhood": "PINAR DEL REY",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / PINAR DEL REY; local municipal 270406213",
+      "changed_fields": []
+    },
+    {
+      "id": "20887",
+      "local_id": "280037269",
+      "district": "CHAMBERI",
+      "neighborhood": "TRAFALGAR",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMBERI / TRAFALGAR; local municipal 280037269",
+      "changed_fields": []
+    },
+    {
+      "id": "20888",
+      "local_id": "280050316",
+      "district": "USERA",
+      "neighborhood": "MOSCARDO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; USERA / MOSCARDO; local municipal 280050316",
+      "changed_fields": []
+    },
+    {
+      "id": "20889",
+      "local_id": "280070183",
+      "district": "HORTALEZA",
+      "neighborhood": "PIOVERA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / PIOVERA; local municipal 280070183",
+      "changed_fields": []
+    },
+    {
+      "id": "20890",
+      "local_id": "270577534",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270577534",
+      "changed_fields": []
+    },
+    {
+      "id": "20891",
+      "local_id": "270585286",
+      "district": "CHAMARTIN",
+      "neighborhood": "HISPANOAMERICA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CHAMARTIN / HISPANOAMERICA; local municipal 270585286",
+      "changed_fields": []
+    },
+    {
+      "id": "20892",
+      "local_id": "20000240",
+      "district": "ARGANZUELA",
+      "neighborhood": "DELICIAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / DELICIAS; local municipal 20000240",
+      "changed_fields": []
+    },
+    {
+      "id": "20893",
+      "local_id": "270395479",
+      "district": "SALAMANCA",
+      "neighborhood": "GUINDALERA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; SALAMANCA / GUINDALERA; local municipal 270395479",
+      "changed_fields": []
+    },
+    {
+      "id": "20894",
+      "local_id": "270558476",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270558476",
+      "changed_fields": []
+    },
+    {
+      "id": "20895",
+      "local_id": "280070336",
+      "district": "HORTALEZA",
+      "neighborhood": "CANILLAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / CANILLAS; local municipal 280070336",
+      "changed_fields": []
+    },
+    {
+      "id": "20896",
+      "local_id": "270577171",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270577171",
+      "changed_fields": []
+    },
+    {
+      "id": "20897",
+      "local_id": "270191226",
+      "district": "CENTRO",
+      "neighborhood": "PALACIO",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CENTRO / PALACIO; local municipal 270191226",
+      "changed_fields": []
+    },
+    {
+      "id": "20898",
+      "local_id": "270064609",
+      "district": "RETIRO",
+      "neighborhood": "LOS JERONIMOS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / LOS JERONIMOS; local municipal 270064609",
+      "changed_fields": []
+    },
+    {
+      "id": "20899",
+      "local_id": "270571551",
+      "district": "CIUDAD LINEAL",
+      "neighborhood": "COLINA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; CIUDAD LINEAL / COLINA; local municipal 270571551",
+      "changed_fields": []
+    },
+    {
+      "id": "20900",
+      "local_id": "160000719",
+      "district": "HORTALEZA",
+      "neighborhood": "PIOVERA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / PIOVERA; local municipal 160000719",
+      "changed_fields": []
+    },
+    {
+      "id": "20901",
+      "local_id": "20001084",
+      "district": "ARGANZUELA",
+      "neighborhood": "ACACIAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; ARGANZUELA / ACACIAS; local municipal 20001084",
+      "changed_fields": []
+    },
+    {
+      "id": "20902",
+      "local_id": "30000095",
+      "district": "RETIRO",
+      "neighborhood": "IBIZA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; RETIRO / IBIZA; local municipal 30000095",
+      "changed_fields": []
+    },
+    {
+      "id": "20903",
+      "local_id": "270580128",
+      "district": "VILLA DE VALLECAS",
+      "neighborhood": "ENSANCHE DE VALLECAS",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; VILLA DE VALLECAS / ENSANCHE DE VALLECAS; local municipal 270580128",
+      "changed_fields": []
+    },
+    {
+      "id": "20904",
+      "local_id": "270213192",
+      "district": "SALAMANCA",
+      "neighborhood": "GOYA",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; SALAMANCA / GOYA; local municipal 270213192",
+      "changed_fields": []
+    },
+    {
+      "id": "20905",
+      "local_id": "270579149",
+      "district": "HORTALEZA",
+      "neighborhood": "VALDEFUENTES",
+      "activity": "Hostelería con terraza (registro municipal)",
+      "type": "entrada",
+      "before": null,
+      "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270579149",
+      "changed_fields": []
+    }
+  ]
+}

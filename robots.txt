@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://paniset.github.io/pulso-local-madrid/sitemap.xml
