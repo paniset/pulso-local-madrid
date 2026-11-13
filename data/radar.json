@@ -7,7 +7,7 @@
     "from_date": "2026-09-30",
     "to_date": "2026-10-31",
     "date_note": "Fechas verificadas en fx_carga de los CSV (30/09/2026 y 31/10/2026); no son fechas de cambios individuales.",
-    "generated_at": "2026-11-08T00:31:13.933966+00:00",
+    "generated_at": "2026-11-13T09:18:36.619389+00:00",
     "mode": "real",
     "total_changes": 60,
     "displayed_changes": 60,
@@ -755,5 +755,126 @@
       "after": "Local: Abierto; terraza: Abierta; periodo: Anual; HORTALEZA / VALDEFUENTES; local municipal 270579149",
       "changed_fields": []
     }
-  ]
+  ],
+  "districts": {
+    "terraces_date": "2026-10-31",
+    "population_date": "2026-01-01",
+    "population_source": {
+      "url": "https://datos.madrid.es/dataset/300557-0-poblacion-distrito-barrio/resource/300557-0-poblacion-distrito-barrio-csv/download/300557-0-poblacion-distrito-barrio-csv.csv",
+      "dataset": "https://datos.madrid.es/dataset/300557-0-poblacion-distrito-barrio",
+      "resource_id": "300557-0-poblacion-distrito-barrio-csv",
+      "description": "Población por distrito y barrio a 1 de enero",
+      "date": "2026-01-01",
+      "sha256": "86370f0591d5cdad33e7b85b34c26eeac60b87387b8dad908ec63c21c9011835",
+      "bytes": 98652,
+      "neighborhoods": 131
+    },
+    "rows": [
+      {
+        "district": "ARGANZUELA",
+        "terraces": 418,
+        "population": 158550
+      },
+      {
+        "district": "BARAJAS",
+        "terraces": 97,
+        "population": 50613
+      },
+      {
+        "district": "CARABANCHEL",
+        "terraces": 321,
+        "population": 278090
+      },
+      {
+        "district": "CENTRO",
+        "terraces": 814,
+        "population": 141800
+      },
+      {
+        "district": "CHAMARTIN",
+        "terraces": 495,
+        "population": 148093
+      },
+      {
+        "district": "CHAMBERI",
+        "terraces": 578,
+        "population": 141522
+      },
+      {
+        "district": "CIUDAD LINEAL",
+        "terraces": 257,
+        "population": 230334
+      },
+      {
+        "district": "FUENCARRAL-EL PARDO",
+        "terraces": 342,
+        "population": 256037
+      },
+      {
+        "district": "HORTALEZA",
+        "terraces": 249,
+        "population": 209178
+      },
+      {
+        "district": "LATINA",
+        "terraces": 301,
+        "population": 251139
+      },
+      {
+        "district": "MONCLOA-ARAVACA",
+        "terraces": 207,
+        "population": 126257
+      },
+      {
+        "district": "MORATALAZ",
+        "terraces": 146,
+        "population": 94405
+      },
+      {
+        "district": "PUENTE DE VALLECAS",
+        "terraces": 331,
+        "population": 257924
+      },
+      {
+        "district": "RETIRO",
+        "terraces": 335,
+        "population": 118863
+      },
+      {
+        "district": "SALAMANCA",
+        "terraces": 515,
+        "population": 147256
+      },
+      {
+        "district": "SAN BLAS-CANILLEJAS",
+        "terraces": 284,
+        "population": 168526
+      },
+      {
+        "district": "TETUAN",
+        "terraces": 332,
+        "population": 167776
+      },
+      {
+        "district": "USERA",
+        "terraces": 148,
+        "population": 152937
+      },
+      {
+        "district": "VICALVARO",
+        "terraces": 99,
+        "population": 97860
+      },
+      {
+        "district": "VILLA DE VALLECAS",
+        "terraces": 167,
+        "population": 127566
+      },
+      {
+        "district": "VILLAVERDE",
+        "terraces": 176,
+        "population": 172551
+      }
+    ]
+  }
 }
